@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+  <head>
+    <!-- <meta charset="UTF-8" /> -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <!-- Tab icon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/favicon.png"
+      type="image/x-icon"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    />
+    <!-- Boxicons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <!-- JS -->
+    <script src="./assets/js/main.js" type="module"></script>
+  </head>
+  <body>
+    <!-- /************************ HEADER ************************/ -->
+    <header class="header">
+      <nav class="nav container">
+        <!-- /************************ MENU ************************/ -->
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="#about-me"
+              data-section="header"
+              data-value="option1"
+              >Acerca de mi</a
+            >
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="#skills"
+              data-section="header"
+              data-value="option2"
+              >Habilidades</a
+            >
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="#projects"
+              data-section="header"
+              data-value="option3"
+              >Proyectos</a
+            >
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="#studies"
+              data-section="header"
+              data-value="option4"
+              >Estudios</a
+            >
+          </li>
+          <li class="nav__item">
+            <a
+              class="nav__link"
+              href="#contact-me"
+              data-section="header"
+              data-value="option5"
+              >Contactame</a
+            >
+          </li>
+        </ul>
+        <!-- /************************ SWITCH THEME ************************/ -->
+        <div class="nav__theme">
+          <div class="nav__switcher">
+            <input class="nav__check" type="checkbox" />
+            <div class="nav__option"></div>
+          </div>
+        </div>
+        <!-- /************************ CHANGE LANGUAGE ************************/ -->
+        <div class="nav__flags" id="nav__flags">
+          <div class="flag__item" data-language="es">
+            <img
+              class="flag__img"
+              src="./assets/icons/es.svg"
+              title="Español/Spanish"
+            />
+          </div>
+          <div class="flag__item" data-language="en">
+            <img
+              class="flag__img"
+              src="./assets/icons/gb.svg"
+              title="Inglés/English"
+            />
+          </div>
+        </div>
+        <img class="nav__menu" src="./assets/icons/menu.svg" title="Menu" />
+      </nav>
+    </header>
+    <!-- /************************ MAIN ************************/ -->
+    <main class="main">
+      <!-- /************************ SIDEBAR ************************/ -->
+
+      <!-- /************************ SIDEBAR NETWORKS ************************/ -->
+      <div class="sidebar__networks">
+        <a
+          class="sidebar__item network__linkedin"
+          href="https://www.linkedin.com/in/edwin-agemiler-amaranto-villegas-3ba291128/"
+          target="_blank"
+        >
+          <img
+            class="sidebar__img"
+            src="./assets/icons/linkedin.svg"
+            title="Linkedin"
+          />
+        </a>
+        <a
+          class="sidebar__item network__whatsapp"
+          href="https://wa.link/x4b9zx"
+          target="_blank"
+        >
+          <img
+            class="sidebar__img"
+            src="./assets/icons/whatsapp.svg"
+            title="Whatsapp"
+          />
+        </a>
+        <a
+          class="sidebar__item network__telegram"
+          href="https://t.me/edwinamaranto"
+          target="_blank"
+        >
+          <img
+            class="sidebar__img"
+            src="./assets/icons/telegram.svg"
+            title="Telegram"
+          />
+        </a>
+        <a
+          class="sidebar__item network__github"
+          href="https://github.com/EdwinCoder85"
+          target="_blank"
+        >
+          <img
+            class="sidebar__img"
+            src="./assets/icons/github.svg"
+            title="Github"
+          />
+        </a>
+        <a
+          class="sidebar__item network__gitlab"
+          href="https://gitlab.com/EAMARANTO"
+          target="_blank"
+        >
+          <img
+            class="sidebar__img"
+            src="./assets/icons/gitlab.svg"
+            title="Gitlab"
+          />
+        </a>
+      </div>
+      <!-- /************************ MAIN TITLE ************************/ -->
+
+      <!-- /************************ ABOUT ME ************************/ -->
+      <section class="about container" id="about-me">
+        <article class="about__main">
+          <div class="about__texts">
+            <div class="about__title show-animate">
+              <div class="about-content">
+                <div
+                  class="about__presentation"
+                  data-section="about-me"
+                  data-value="main-title"
+                >
+                  Hola, Soy Edwin Amaranto
+                </div>
+                <div class="text-animate">
+                  <h3 class="" data-section="about-me" data-value="rol">
+                    Desarrollador Frontend
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <p
+              class="paragraph paragraph--height paragraph--size"
+              data-section="about-me"
+              data-value="description"
+            >
+              Natural de la Ciudad de Chimbote, País de Perú; y egresado de la
+              Universidad Nacional del Santa en donde me gradúe como Ingeniero
+              de Sistemas e Informática, actualmente estudiante del Bootcamp de
+              Academlo y amante de las tecnologías de la programación. Mis
+              pasatiempos favoritos son: programar diariamente en lenguajes de
+              frontend, salir a caminar, ver películas del género de acción,
+              terror y ciencia ficción, ir al gimnasio por las tardes,
+              investigar nuevas tecnologías en programación, leer libros de
+              superación personal y educación financiera. Dentro de mis
+              habilidades blandas me caracterizo por: tener alto sentido de la
+              responsabilidad, tener ética laboral, trabajar en equipo y bajo
+              presión, adquirir responsabilidades fácilmente, ser un joven
+              profesional creativo, trabajar orientado a resultados, adaptarme
+              con facilidad a cualquier puesto o función que me asignen,
+              mantener adecuadas relaciones interpersonales en el entorno
+              laboral. Asimismo, enfrentar a entornos de incertidumbre, y de
+              toma de decisiones y adaptabilidad, además de capacidad de
+              análisis, síntesis y organización
+            </p>
+          </div>
+          <div class="about__buttons">
+            <div class="about__button">
+              <i class="bx bx-book-bookmark"></i>
+              <a
+                class="about__link"
+                href="https://1drv.ms/b/s!AsLtb_k69DmKjm5Bu_PpPl_FmoXx?e=6cO93i"
+                target="_blank"
+                data-section="about-me"
+                data-value="curriculum"
+                >Descarga mi curriculo</a
+              >
+            </div>
+            <!-- <embed src="assets/docs/curriculo.pdf" type="application/pdf" width="430px" height="640px" /> -->
+          </div>
+        </article>
+      </section>
+      <!-- /************************ SKILLS ************************/ -->
+      <section class="skill container" id="skills">
+        <div class="skill__main">
+          <article class="skill__article">
+            <h3
+              class="subtitle"
+              data-section="skills"
+              data-value="subtitle1"
+            >
+              Habilidades Técnicas
+            </h3>
+            <div class="skill__grid">
+              <div class="skill__figure">
+                <img
+                  class="skill__img"
+                  src="./assets/images/css-3.svg"
+                  alt="icon supervisor"
+                />
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img"
+                  src="./assets/images/html-5.svg"
+                  alt="icon supervisor"
+                />
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img"
+                  src="./assets/images/javascript.svg"
+                  alt="icon supervisor"
+                />
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img"
+                  src="./assets/images/react.svg"
+                  alt="icon supervisor"
+                />
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img"
+                  src="./assets/images/redux.svg"
+                  alt="icon supervisor"
+                />
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img"
+                  src="./assets/images/nodejs.svg"
+                  alt="icon supervisor"
+                />
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img"
+                  src="./assets/images/tailwind.svg"
+                  alt="icon supervisor"
+                />
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img"
+                  src="./assets/images/npm.svg"
+                  alt="icon supervisor"
+                />
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img"
+                  src="./assets/images/sequelize.svg"
+                  alt="icon supervisor"
+                />
+              </div>
+            </div>
+          </article>
+          <article class="skill__article">
+            <h3
+              class="subtitle"
+              data-section="skills"
+              data-value="subtitle2"
+            >
+              Habilidades Blandas
+            </h3>
+            <div class="skill__grid">
+              <div class="skill__figure">
+                <img
+                  class="skill__img img-align"
+                  src="./assets/images/adaptable.svg"
+                  alt="icon supervisor"
+                />
+                <h4
+                  class="subtitle--size subtitle--align"
+                  data-section="skills"
+                  data-value="skill1"
+                >
+                  Adaptable
+                </h4>
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img img-align"
+                  src="./assets/images/collaboration.svg"
+                  alt="icon supervisor"
+                />
+                <h4
+                  class="subtitle--size subtitle--align"
+                  data-section="skills"
+                  data-value="skill2"
+                >
+                  Colaborativo
+                </h4>
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img img-align"
+                  src="./assets/images/creativity.svg"
+                  alt="icon supervisor"
+                />
+                <h4
+                  class="subtitle--size subtitle--align"
+                  data-section="skills"
+                  data-value="skill3"
+                >
+                  Creativo
+                </h4>
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img img-align"
+                  src="./assets/images/orientation_to_results.svg"
+                  alt="icon supervisor"
+                />
+                <h4
+                  class="subtitle--size subtitle--align"
+                  data-section="skills"
+                  data-value="skill4"
+                >
+                  Orientado a resultados
+                </h4>
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img img-align"
+                  src="./assets/images/bug-fixing.svg"
+                  alt="icon supervisor"
+                />
+                <h4
+                  class="subtitle--size subtitle--align"
+                  data-section="skills"
+                  data-value="skill5"
+                >
+                  Resolutivo
+                </h4>
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img img-align"
+                  src="./assets/images/team-work.svg"
+                  alt="icon supervisor"
+                />
+                <h4
+                  class="subtitle--size subtitle--align"
+                  data-section="skills"
+                  data-value="skill6"
+                >
+                  Trabajo en Equipo
+                </h4>
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img img-align"
+                  src="./assets/images/effective-communication.svg"
+                  alt="icon supervisor"
+                />
+                <h4
+                  class="subtitle--size subtitle--align"
+                  data-section="skills"
+                  data-value="skill7"
+                >
+                  Comunicación efectiva
+                </h4>
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img img-align"
+                  src="./assets/images/focusing.svg"
+                  alt="icon supervisor"
+                />
+                <h4
+                  class="subtitle--size subtitle--align"
+                  data-section="skills"
+                  data-value="skill8"
+                >
+                  Enfocado
+                </h4>
+              </div>
+              <div class="skill__figure">
+                <img
+                  class="skill__img img-align"
+                  src="./assets/images/data-analyst.svg"
+                  alt="icon supervisor"
+                />
+                <h4
+                  class="subtitle--size subtitle--align"
+                  data-section="skills"
+                  data-value="skill9"
+                >
+                  Gestión del tiempo
+                </h4>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- /************************ PROJECTS ************************/ -->
+      <section class="project container" id="projects">
+        <!-- /************************ MAIN PROJECTS ************************/ -->
+        <!-- /************************ SLIDER PROJECTS ************************/ -->
+        <div class="slider">
+          <div class="list">
+            <div class="item">
+              <img
+                class="project__img"
+                src="./assets/images/project06.jpg"
+                alt="Ecommerce App"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="project__img"
+                src="./assets/images/project05.jpg"
+                alt="Pokedex App"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="project__img"
+                src="./assets/images/project04.jpg"
+                alt="Crud User App"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="project__img"
+                src="./assets/images/project03.jpg"
+                alt="Rick and Morty App"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="project__img"
+                src="./assets/images/project02.jpg"
+                alt="Weather App"
+              />
+            </div>
+            <div class="item">
+              <img
+                class="project__img"
+                src="./assets/images/project01.jpg"
+                alt="Weather App"
+              />
+            </div>
+          </div>
+          <div class="buttons">
+            <button id="prev">«</button>
+            <button id="next">»</button>
+          </div>
+          <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+        <div class="project__articles">
+          <article class="project__article">
+            <h3 class="subtitle">E-COMMERCE APP</h3>
+            <p
+              class="paragraph paragraph--height paragraph--size"
+              data-section="projects"
+              data-value="project6"
+            >
+              Es una aplicación web desarrollada con front-end que permite
+              mostrar el catálogo de productos disponibles, realizar compras,
+              añadir al carrito de comprar, ver detalle del producto a
+              seleccionar, así como iniciar y cerrar sesión a través de una API.
+              Para la construcción del app se usaron librerías como: Axios,
+              React Hook Form, React Router y React Redux.
+            </p>
+            <div class="project__buttons">
+              <div class="project__button project__button--access">
+                <i class="bx bxl-netlify"></i>
+                <a
+                  class="project__link"
+                  href="https://ecommerceapp-edwinamaranto.netlify.app/"
+                  target="_blank"
+                  data-section="projects"
+                  data-value="label1"
+                >
+                  Accede al App
+                </a>
+              </div>
+              <div class="project__button project__button--download">
+                <i class="bx bxl-github"></i>
+                <a
+                  class="project__link"
+                  href="https://github.com/EdwinCoder85/EcommerceApp"
+                  target="_blank"
+                  data-section="projects"
+                  data-value="label2"
+                >
+                  Descargar código
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project__article">
+            <h3 class="subtitle">POKEDEX APP</h3>
+            <p
+              class="paragraph paragraph--height paragraph--size"
+              data-section="projects"
+              data-value="project5"
+            >
+              Es una aplicación web desarrollada con front-end que permite
+              buscar al Pokémon por categoría y por nombre, ver la información
+              detallada de nuestro pokemon buscado a través de una API. Para la
+              construcción del app se usaron librerías como: Axios, React Router
+              y React Redux.
+            </p>
+            <div class="project__buttons">
+              <div class="project__button project__button--access">
+                <i class="bx bxl-netlify"></i>
+                <a
+                  class="project__link"
+                  href="https://pokedexapp-edwinamaranto.netlify.app/"
+                  target="_blank"
+                  data-section="projects"
+                  data-value="label1"
+                >
+                  Accede al App
+                </a>
+              </div>
+              <div class="project__button project__button--download">
+                <i class="bx bxl-github"></i>
+                <a
+                  class="project__link"
+                  href="https://github.com/EdwinCoder85/PokedexApp"
+                  target="_blank"
+                  data-section="projects"
+                  data-value="label2"
+                >
+                  Descargar código
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="project__article">
+            <h3 class="subtitle">CRUD USERS APP</h3>
+            <p
+              class="paragraph paragraph--height paragraph--size"
+              data-section="projects"
+              data-value="project4"
+            >
+              Es una aplicación web desarrollada con front-end que permite
+              crear, eliminar y modificar usuarios a través de una API, a través
+              de todos los métodos http. Para la construcción del app se uso la
+              librería como: Axios y React Hook Form.
+            </p>
+            <div class="project__buttons">
+              <div class="project__button project__button--access">
+                <i class="bx bxl-netlify"></i>
+                <a
+                  class="project__link"
+                  href="https://cruduserapp-edwinamaranto.netlify.app/"
+                  target="_blank"
+                  data-section="projects"
+                  data-value="label1"
+                >
+                  Accede al App
+                </a>
+              </div>
+              <div class="project__button project__button--download">
+                <i class="bx bxl-github"></i>
+                <a
+                  class="project__link"
+                  href="https://github.com/EdwinCoder85/CrudUserApp"
+                  target="_blank"
+                  data-section="projects"
+                  data-value="label2"
+                >
+                  Descargar código
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- /************************ STUDIES ************************/ -->
+      <section class="study container" id="studies">
+        <div class="study__main">
+          <article class="study__texts">
+            <h3 class="subtitle" data-section="studies" data-value="subtitle1">
+              Grados Académicos
+            </h3>
+            <ul class="study__list">
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study1"
+                >
+                  Egresado de la Maestria en Gestión de Tecnologías de la
+                  Información
+                </p>
+              </li>
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study2"
+                >
+                  Ingeniero de Sistemas e Informática
+                </p>
+              </li>
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study3"
+                >
+                  Bachiller en Ingeniería de Sistemas e Informática
+                </p>
+              </li>
+            </ul>
+          </article>
+          <article class="study__texts">
+            <h3 class="subtitle" data-section="studies" data-value="subtitle2">
+              Diplomados y Cursos
+            </h3>
+            <ul class="study__list">
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study4"
+                >
+                  Diplomado en “Gerencia de Proyectos”
+                </p>
+              </li>
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study5"
+                >
+                  Diplomado en “Gestión de Base de Datos”
+                </p>
+              </li>
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study6"
+                >
+                  Curso en “Design Thinking”
+                </p>
+              </li>
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study7"
+                >
+                  Curso en “Gestión de Proyectos con Metodologías Ágiles y
+                  Enfoques Lean”
+                </p>
+              </li>
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study8"
+                >
+                  Curso en “Administración de BD en Oracle”
+                </p>
+              </li>
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study9"
+                >
+                  Curso en “PowerBuilder Enterprise v2017”
+                </p>
+              </li>
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study10"
+                >
+                  Curso en “Desarrollador de Aplicaciones Web"
+                </p>
+              </li>
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study11"
+                >
+                  Curso en “Desarrollo de Soluciones Windows con C#”
+                </p>
+              </li>
+            </ul>
+          </article>
+          <article class="study__texts">
+            <h3 class="subtitle" data-section="studies" data-value="subtitle3">
+              BootCamp
+            </h3>
+            <ul class="study__list">
+              <li class="study__item">
+                <i class="bx bx-book-bookmark icon"></i>
+                <p
+                  class="paragraph paragraph--size"
+                  data-section="studies"
+                  data-value="study12"
+                >
+                  Academlo
+                </p>
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <!-- /************************ CONTACT ME ************************/ -->
+      <section class="contactme container" id="contact-me">
+        <div class="contact__main">
+          <!-- /************************ CONTACT FORM ************************/ -->
+          <article class="contact__form">
+            <form
+              class="form"
+              action="https://formsubmit.co/edwinamarantovillegas@gmail.com"
+              method="POST"
+              id="form"
+            >
+              <div class="form__item">
+                <label
+                  class="form__label subtitle subtitle--size"
+                  for="fullname"
+                  data-section="contact-me"
+                  data-value="label1"
+                  >Nombre y Apellido</label
+                >
+                <input
+                  class="form__input"
+                  type="text"
+                  name="fullname"
+                  id="fullname"
+                  placeholder=""
+                  required
+                />
+                <small></small>
+              </div>
+              <div class="form__item">
+                <label
+                  class="form__label subtitle subtitle--size"
+                  for="email"
+                  data-section="contact-me"
+                  data-value="label2"
+                  >Correo electrónico</label
+                >
+                <input
+                  class="form__input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder=""
+                  required
+                />
+                <small></small>
+              </div>
+              <div class="form__item">
+                <label
+                  class="form__label subtitle subtitle--size"
+                  for="phone"
+                  data-section="contact-me"
+                  data-value="label3"
+                  >Número de Celular</label
+                >
+                <input
+                  class="form__input"
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder=""
+                  required
+                />
+                <small></small>
+              </div>
+              <div class="form__item">
+                <label
+                  class="form__label subtitle subtitle--size"
+                  for="affair"
+                  data-section="contact-me"
+                  data-value="label4"
+                  >Asunto</label
+                >
+                <input
+                  class="form__input"
+                  type="text"
+                  name="affair"
+                  id="affair"
+                  placeholder=""
+                  required
+                />
+                <small></small>
+              </div>
+              <div class="form__item block">
+                <label
+                  class="form__label subtitle subtitle--size"
+                  data-section="contact-me"
+                  data-value="label5"
+                  >Mensaje</label
+                >
+                <textarea
+                  class="form__textarea"
+                  name="message"
+                  rows="5"
+                  cols="2"
+                  id="message"
+                  placeholder=""
+                  required
+                ></textarea>
+                <small></small>
+              </div>
+              <div class="form__item block">
+                <button
+                  class="form__button subtitle"
+                  data-section="contact-me"
+                  data-value="label6"
+                >
+                  Enviar
+                </button>
+              </div>
+              <div>
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://127.0.0.7:5500/"
+                />
+                <input type="hidden" name="_captcha" value="false" />
+              </div>
+            </form>
+          </article>
+          <!-- /************************ MORE INFORMATION *******************/ -->
+          <article class="contact__info">
+            <h4
+              class="subtitle"
+              data-section="contact-me"
+              data-value="subtitle"
+            >
+              Más Información
+            </h4>
+            <ul class="contact__list">
+              <li
+                class="contact__item"
+                data-section="contact-me"
+                data-value="label7"
+              >
+                <i class="bx bx-map-pin icon"></i> Chimbote, Ancash, Perú
+              </li>
+              <li
+                class="contact__item"
+                data-section="contact-me"
+                data-value="label8"
+              >
+                <i class="bx bx-phone icon"></i> (+51) 954 647 683
+              </li>
+              <li
+                class="contact__item"
+                data-section="contact-me"
+                data-value="label9"
+              >
+                <i class="bx bx-envelope icon"></i>
+                edwinamarantovillegas@gmail.com
+              </li>
+            </ul>
+            <p
+              class="contact__paragraph contact__item"
+              data-section="contact-me"
+              data-value="paragraph"
+            >
+              También comunicame o contactame a través de mis redes sociales.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- /************************ FOOTER ************************/ -->
+      <footer class="footer">
+        <div class="footer__main container">
+          <h2 class="title" data-section="footer" data-value="title">
+            Redes sociales
+          </h2>
+          <ul class="footer__contact">
+            <li class="footer__item">
+              <a
+                class="footer__link"
+                href="https://www.linkedin.com/in/edwin-agemiler-amaranto-villegas-3ba291128/"
+                target="_blank"
+              >
+                <img
+                  class="footer__img"
+                  src="./assets/icons/linkedin.svg"
+                  title="Linkedin"
+                />
+              </a>
+            </li>
+            <li class="footer__item">
+              <a
+                class="footer__link"
+                href="https://w.app/edwinamaranto"
+                target="_blank"
+              >
+                <img
+                  class="footer__img"
+                  src="./assets/icons/whatsapp.svg"
+                  title="Whatsapp"
+                />
+              </a>
+            </li>
+            <li class="footer__item">
+              <a
+                class="footer__link"
+                href="https://t.me/edwinamaranto"
+                target="_blank"
+              >
+                <img
+                  class="footer__img"
+                  src="./assets/icons/telegram.svg"
+                  title="Telegram"
+                />
+              </a>
+            </li>
+            <li class="footer__item">
+              <a
+                class="footer__link"
+                href="https://github.com/EdwinCoder85"
+                target="_blank"
+              >
+                <img
+                  class="footer__img"
+                  src="./assets/icons/github.svg"
+                  title="Github"
+                />
+              </a>
+            </li>
+            <li class="footer__item">
+              <a
+                class="footer__link"
+                href="https://gitlab.com/EAMARANTO"
+                target="_blank"
+              >
+                <img
+                  class="footer__img"
+                  src="./assets/icons/gitlab.svg"
+                  title="Gitlab"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
