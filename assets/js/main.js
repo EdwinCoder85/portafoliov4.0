@@ -1,7 +1,7 @@
 import changeLanguage from "./helpers/changeLanguage.js";
 import switchTheme from "./helpers/switchTheme.js";
 import showMenu from "./helpers/showMenu.js";
-import sliderImage from "./helpers/sliderImages.js"
+import swiperWrapper from "./helpers/swiperWrapper.js";
 
 /* UI Element */
 
@@ -14,7 +14,7 @@ showMenu()
 /* Switch Theme */
 switchTheme()
 
-/* Slider Image */
-sliderImage()
+/* Swiper Wrapper */
+swiperWrapper()
 
 /* End UI Element */

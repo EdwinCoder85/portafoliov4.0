@@ -43,3 +43,4 @@ function sliderImage() {
 }
 
 export default sliderImage;
+
