@@ -2,7 +2,9 @@ function swiperWrapper() {
   var swiper = new Swiper(".card__content", {
 
     // Optional parameters
+
     loop: true,
+    slidesPerView: 1,
     spaceBetween: 32,
     grabCursor: true,
     autoplay: {
