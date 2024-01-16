@@ -27,7 +27,7 @@
   --text-color: #fff;
   --text-footer: #fff;
   /* --bg-color: #464646f6; */
-  --bg-color: #1A1A1A;
+  --bg-color: #1a1a1a;
   --bg-header: var(--dorado);
   --bg-footer: #2f2f2f;
   --bg-scrollbar: #535353cd;
@@ -132,11 +132,13 @@ section {
 }
 /************************ CONTENEDOR PRINCIPAL *********************/
 .container {
-  width: 90%;
-  max-width: 1500px;
+  /* width: 90%;
+  max-width: 1500px; */
+  width: 100%;
+  max-width: 1536px;
   margin: 0 auto;
   overflow: hidden;
-  padding: 10px;
+  padding: 20px;
 }
 /************************ GENERALITIES *********************/
 .title__main {
@@ -1122,6 +1124,7 @@ section {
   .about__main {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 3rem;
   }
   .about__button {
@@ -1253,7 +1256,8 @@ section {
 @media (min-width: 1280px) {
   /************************ CONTENEDOR PRINCIPAL *********************/
   .container {
-    padding: 30px 60px;
+    /* padding: 30px 60px; */
+    padding: 30px 0;
   }
   /************************ GENERALITIES ************************/
   .paragraph--height {
@@ -1420,5 +1424,4 @@ section {
   .card__button {
     font-size: 1.8rem;
   }
-
 }
