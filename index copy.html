@@ -116,32 +116,70 @@
     </header>
     <!-- /************************ MAIN ************************/ -->
     <main class="main">
+      <!-- /************************ SIDEBAR ************************/ -->
+
+      <!-- /************************ SIDEBAR NETWORKS ************************/ -->
+      <div class="sidebar__networks">
+        <a
+          class="sidebar__item network__linkedin"
+          href="https://www.linkedin.com/in/edwin-agemiler-amaranto-villegas-3ba291128/"
+          target="_blank"
+        >
+          <img
+            class="sidebar__img"
+            src="./assets/icons/linkedin.svg"
+            title="Linkedin"
+          />
+        </a>
+        <a
+          class="sidebar__item network__whatsapp"
+          href="https://wa.link/x4b9zx"
+          target="_blank"
+        >
+          <img
+            class="sidebar__img"
+            src="./assets/icons/whatsapp.svg"
+            title="Whatsapp"
+          />
+        </a>
+        <a
+          class="sidebar__item network__telegram"
+          href="https://t.me/edwinamaranto"
+          target="_blank"
+        >
+          <img
+            class="sidebar__img"
+            src="./assets/icons/telegram.svg"
+            title="Telegram"
+          />
+        </a>
+        <a
+          class="sidebar__item network__github"
+          href="https://github.com/EdwinCoder85"
+          target="_blank"
+        >
+          <img
+            class="sidebar__img"
+            src="./assets/icons/github.svg"
+            title="Github"
+          />
+        </a>
+        <a
+          class="sidebar__item network__gitlab"
+          href="https://gitlab.com/EAMARANTO"
+          target="_blank"
+        >
+          <img
+            class="sidebar__img"
+            src="./assets/icons/gitlab.svg"
+            title="Gitlab"
+          />
+        </a>
+      </div>
       <!-- /************************ MAIN TITLE ************************/ -->
 
       <!-- /************************ ABOUT ME ************************/ -->
       <section class="about container" id="about-me">
-        <div class="main__box">
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-        </div>
         <article class="about__main">
           <div class="about__texts">
             <div class="about__title show-animate">
@@ -175,60 +213,6 @@
               resumen, ofrezco soluciones de calidad con un enfoque disruptivo,
               innovador, dinámico y equilibrado.
             </p>
-            <ul class="about__contact">
-              <li class="">
-                <a
-                  class="about__item about__item--access"
-                  href="https://github.com/EdwinCoder85"
-                  target="_blank"
-                >
-                  <img
-                    class="about__img"
-                    src="./assets/icons/github.svg"
-                    title="Github"
-                  />
-                </a>
-              </li>
-              <li class="">
-                <a
-                  class="about__item about__item--access"
-                  href="https://gitlab.com/EdwinCoder85"
-                  target="_blank"
-                >
-                  <img
-                    class="about__img"
-                    src="./assets/icons/gitlab.svg"
-                    title="Gitlab"
-                  />
-                </a>
-              </li>
-              <li class="">
-                <a
-                  class="about__item about__item--access"
-                  href="https://www.linkedin.com/in/edwin-amaranto-villegas-3ba291128/"
-                  target="_blank"
-                >
-                  <img
-                    class="about__img"
-                    src="./assets/icons/linkedin.svg"
-                    title="Linkedin"
-                  />
-                </a>
-              </li>
-              <li class="">
-                <a
-                  class="about__item about__item--access"
-                  href="https://wa.link/x4b9zx"
-                  target="_blank"
-                >
-                  <img
-                    class="about__img"
-                    src="./assets/icons/whatsapp.svg"
-                    title="Whatsapp"
-                  />
-                </a>
-              </li>
-            </ul>
           </div>
           <div class="about__buttons">
             <div class="about__button">
@@ -239,9 +223,10 @@
                 target="_blank"
                 data-section="about-me"
                 data-value="curriculum"
-                >Descargar mi curriculo</a
+                >Descarga mi curriculo</a
               >
             </div>
+            <!-- <embed src="assets/docs/curriculo.pdf" type="application/pdf" width="430px" height="640px" /> -->
           </div>
         </article>
       </section>
@@ -291,7 +276,7 @@
               <figure class="skill__figure">
                 <img
                   class="skill__img"
-                  src="./assets/images/typescript.svg"
+                  src="./assets/images/nodejs.svg"
                   alt="icon supervisor"
                 />
               </figure>
@@ -312,7 +297,7 @@
               <figure class="skill__figure">
                 <img
                   class="skill__img"
-                  src="./assets/images/sass.svg"
+                  src="./assets/images/sequelize.svg"
                   alt="icon supervisor"
                 />
               </figure>
@@ -465,7 +450,11 @@
               <!-- Slides -->
               <div class="card__article swiper-slide">
                 <div class="card__image">
-                  <img src="./assets/images/project07.jpg" alt="" />
+                  <img
+                    class="card__img"
+                    src="./assets/images/project07.jpg"
+                    alt=""
+                  />
                   <span class="card__status">Nuevo</span>
                 </div>
 
@@ -486,75 +475,65 @@
                   </p>
                 </div>
 
-                <div class="card__footer">
-                  <div class="card__technologies">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a class="card__link card__link--react">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/react.svg"
-                            title="React"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--redux">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/redux.svg"
-                            title="Redux"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--tailwind">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/tailwind.svg"
-                            title="Tailwind"
-                          />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                <div class="card__technologies">
+                  <figure class="card__figure">
+                    <img
+                      class="card__img img-align"
+                      src="./assets/images/tailwind.svg"
+                      alt="icon supervisor"
+                    />
+                  </figure>
+                  <figure class="card__figure">
+                    <img
+                      class="card__img img-align"
+                      src="./assets/images/react.svg"
+                      alt="icon supervisor"
+                    />
+                  </figure>
+                  <figure class="card__figure">
+                    <img
+                      class="card__img img-align"
+                      src="./assets/images/redux.svg"
+                      alt="icon supervisor"
+                    />
+                  </figure>
+                </div>
 
-                  <div class="card__buttons">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--download"
-                          href="https://github.com/EdwinCoder85/CrudMoviesApp"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/github.svg"
-                            title="Github"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--access"
-                          href="https://crudmoviesapp-edwinamaranto.netlify.app/"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/netlify.svg"
-                            title="Netlify"
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                <div class="card__buttons">
+                  <div class="card__button card__button--access">
+                    <i class="bx bxl-netlify"></i>
+                    <a
+                      class="card__link"
+                      href="https://crudmoviesapp-edwinamaranto.netlify.app/"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label1"
+                    >
+                      Accede al App
+                    </a>
+                  </div>
+                  <div class="card__button card__button--download">
+                    <i class="bx bxl-github"></i>
+                    <a
+                      class="card__link"
+                      href="https://github.com/EdwinCoder85/CrudMoviesApp"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label2"
+                    >
+                      Descargar código
+                    </a>
                   </div>
                 </div>
               </div>
 
               <div class="card__article swiper-slide">
                 <div class="card__image">
-                  <img src="./assets/images/img7.png" alt="" />
+                  <img
+                    class="card__img"
+                    src="./assets/images/img7.png"
+                    alt=""
+                  />
                   <span class="card__status">Nuevo</span>
                 </div>
 
@@ -574,68 +553,54 @@
                   </p>
                 </div>
 
-                <div class="card__footer">
-                  <div class="card__technologies">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a class="card__link card__link--react">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/react.svg"
-                            title="React"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--redux">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/redux.svg"
-                            title="Redux"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--tailwind">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/tailwind.svg"
-                            title="Tailwind"
-                          />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                <div class="card__technologies">
+                  <figure class="card__figure">
+                    <img
+                      class="card__img img-align"
+                      src="./assets/images/tailwind.svg"
+                      alt="icon supervisor"
+                    />
+                  </figure>
+                  <figure class="card__figure">
+                    <img
+                      class="card__img img-align"
+                      src="./assets/images/react.svg"
+                      alt="icon supervisor"
+                    />
+                  </figure>
+                  <figure class="card__figure">
+                    <img
+                      class="card__img img-align"
+                      src="./assets/images/redux.svg"
+                      alt="icon supervisor"
+                    />
+                  </figure>
+                </div>
 
-                  <div class="card__buttons">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--download"
-                          href="https://github.com/EdwinCoder85/CountryApp"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/github.svg"
-                            title="Github"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--access"
-                          href="https://countryapp-edwinamaranto.netlify.app/"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/netlify.svg"
-                            title="Netlify"
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                <div class="card__buttons">
+                  <div class="card__button card__button--access">
+                    <i class="bx bxl-netlify"></i>
+                    <a
+                      class="card__link"
+                      href="https://countryapp-edwinamaranto.netlify.app/"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label1"
+                    >
+                      Accede al App
+                    </a>
+                  </div>
+                  <div class="card__button card__button--download">
+                    <i class="bx bxl-github"></i>
+                    <a
+                      class="card__link"
+                      href="https://github.com/EdwinCoder85/CountryApp"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label2"
+                    >
+                      Descargar código
+                    </a>
                   </div>
                 </div>
               </div>
@@ -661,77 +626,30 @@
                   </p>
                 </div>
 
-                <div class="card__footer">
-                  <div class="card__technologies">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a class="card__link card__link--react">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/react.svg"
-                            title="React"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--redux">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/redux.svg"
-                            title="Redux"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--javascript">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/javascript.svg"
-                            title="javascript"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--css">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/css3.svg"
-                            title="Css"
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                <div class="card__buttons">
+                  <div class="card__button card__button--access">
+                    <i class="bx bxl-netlify"></i>
+                    <a
+                      class="card__link"
+                      href="https://ecommerceapp-edwinamaranto.netlify.app/"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label1"
+                    >
+                      Accede al App
+                    </a>
                   </div>
-
-                  <div class="card__buttons">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--download"
-                          href="https://github.com/EdwinCoder85/EcommerceApp"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/github.svg"
-                            title="Github"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--access"
-                          href="https://ecommerceapp-edwinamaranto.netlify.app/"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/netlify.svg"
-                            title="Netlify"
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                  <div class="card__button card__button--download">
+                    <i class="bx bxl-github"></i>
+                    <a
+                      class="card__link"
+                      href="https://github.com/EdwinCoder85/EcommerceApp"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label2"
+                    >
+                      Descargar código
+                    </a>
                   </div>
                 </div>
               </div>
@@ -754,69 +672,30 @@
                     como: Axios, React Router y React Redux.
                   </p>
                 </div>
-
-                <div class="card__footer">
-                  <div class="card__technologies">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a class="card__link card__link--react">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/react.svg"
-                            title="React"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--redux">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/redux.svg"
-                            title="Redux"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--css">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/css3.svg"
-                            title="Css"
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                <div class="card__buttons">
+                  <div class="card__button card__button--access">
+                    <i class="bx bxl-netlify"></i>
+                    <a
+                      class="card__link"
+                      href="https://pokedexapp-edwinamaranto.netlify.app/"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label1"
+                    >
+                      Accede al App
+                    </a>
                   </div>
-
-                  <div class="card__buttons">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--download"
-                          href="https://github.com/EdwinCoder85/PokedexApp"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/github.svg"
-                            title="Github"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--access"
-                          href="https://pokedexapp-edwinamaranto.netlify.app/"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/netlify.svg"
-                            title="Netlify"
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                  <div class="card__button card__button--download">
+                    <i class="bx bxl-github"></i>
+                    <a
+                      class="card__link"
+                      href="https://github.com/EdwinCoder85/PokedexApp"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label2"
+                    >
+                      Descargar código
+                    </a>
                   </div>
                 </div>
               </div>
@@ -841,68 +720,30 @@
                   </p>
                 </div>
 
-                <div class="card__footer">
-                  <div class="card__technologies">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a class="card__link card__link--react">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/react.svg"
-                            title="React"
-                          />
-                        </a>
-                      </li>
-                      <!-- <li class="card__item">
-                        <a class="card__link card__link--typescript">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/typescript.svg"
-                            title="Typescript"
-                          />
-                        </a>
-                      </li> -->
-                      <li class="card__item">
-                        <a class="card__link card__link--css">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/css3.svg"
-                            title="Css"
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                <div class="card__buttons">
+                  <div class="card__button card__button--access">
+                    <i class="bx bxl-netlify"></i>
+                    <a
+                      class="card__link"
+                      href="https://cruduserappv2-edwinamaranto.netlify.app/"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label1"
+                    >
+                      Accede al App
+                    </a>
                   </div>
-
-                  <div class="card__buttons">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--download"
-                          href="https://github.com/EdwinCoder85/UserCardAppv2.0"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/github.svg"
-                            title="Github"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--access"
-                          href="https://cruduserappv2-edwinamaranto.netlify.app/"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/netlify.svg"
-                            title="Netlify"
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                  <div class="card__button card__button--download">
+                    <i class="bx bxl-github"></i>
+                    <a
+                      class="card__link"
+                      href="https://github.com/EdwinCoder85/UserCardAppv2.0"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label2"
+                    >
+                      Descargar código
+                    </a>
                   </div>
                 </div>
               </div>
@@ -927,154 +768,30 @@
                   </p>
                 </div>
 
-                <div class="card__footer">
-                  <div class="card__technologies">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a class="card__link card__link--react">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/react.svg"
-                            title="React"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--javascript">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/javascript.svg"
-                            title="javascript"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--css">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/css3.svg"
-                            title="Css"
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                <div class="card__buttons">
+                  <div class="card__button card__button--access">
+                    <i class="bx bxl-netlify"></i>
+                    <a
+                      class="card__link"
+                      href="https://rickandmortyappv2-edwinamaranto.netlify.app/"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label1"
+                    >
+                      Accede al App
+                    </a>
                   </div>
-
-                  <div class="card__buttons">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--download"
-                          href="https://github.com/EdwinCoder85/RickAndMortyApp"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/github.svg"
-                            title="Github"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--access"
-                          href="https://rickandmortyappv2-edwinamaranto.netlify.app/"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/netlify.svg"
-                            title="Netlify"
-                          />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="card__article swiper-slide">
-                <div class="card__image">
-                  <img src="./assets/images/project08.jpg" alt="" />
-                  <span class="card__status">Nuevo</span>
-                </div>
-
-                <div class="card__data">
-                  <h3 class="card__title">TODO LIST</h3>
-
-                  <p
-                    class="card__description"
-                    data-section="projects"
-                    data-value="project4"
-                  >
-                    Es una aplicación web desarrollada con front-end que permite
-                    crear, eliminar y modificar usuarios a través de una API, a
-                    través de todos los métodos http. Para la construcción del
-                    app se uso la librería como: Axios y React Hook Form.
-                  </p>
-                </div>
-
-                <div class="card__footer">
-                  <div class="card__technologies">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a class="card__link card__link--react">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/react.svg"
-                            title="React"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--typescript">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/typescript.svg"
-                            title="Typescript"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a class="card__link card__link--sass">
-                          <img
-                            class="card__img"
-                            src="./assets/icons/sass.svg"
-                            title="Sass"
-                          />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <div class="card__buttons">
-                    <ul class="card__contact">
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--download"
-                          href="hhttps://github.com/EdwinCoder85/TodoListApp"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/github.svg"
-                            title="Github"
-                          />
-                        </a>
-                      </li>
-                      <li class="card__item">
-                        <a
-                          class="card__link card__link--access"
-                          href="https://todolistapp-edwinamaranto.vercel.app/"
-                          target="_blank"
-                        >
-                          <img
-                            class="card__img"
-                            src="./assets/icons/netlify.svg"
-                            title="Netlify"
-                          />
-                        </a>
-                      </li>
-                    </ul>
+                  <div class="card__button card__button--download">
+                    <i class="bx bxl-github"></i>
+                    <a
+                      class="card__link"
+                      href="https://github.com/EdwinCoder85/RickAndMortyApp"
+                      target="_blank"
+                      data-section="projects"
+                      data-value="label2"
+                    >
+                      Descargar código
+                    </a>
                   </div>
                 </div>
               </div>
@@ -1328,9 +1045,9 @@
                 ></textarea>
                 <small></small>
               </div>
-              <div class="form__item">
+              <div class="form__item block">
                 <button
-                  class="form__button subtitle subtitle--size"
+                  class="form__button subtitle"
                   data-section="contact-me"
                   data-value="label6"
                 >
