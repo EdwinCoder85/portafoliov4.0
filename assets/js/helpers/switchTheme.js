@@ -11,6 +11,18 @@ function switchTheme() {
       const setTheme = this.checked ? "dark" : "light";
       root.setAttribute("data-theme", setTheme);
       localStorage.setItem("theme", setTheme);
+
+      // Cambiar el favicon según el tema seleccionado
+      const faviconLink = document.querySelector('link[rel="shortcut icon"]');
+      const faviconDarkLink = document.querySelector(
+        'link[rel="shortcut icon"][media="(prefers-color-scheme: dark)"]'
+      );
+
+      if (setTheme === "dark" && faviconDarkLink) {
+        faviconLink.href = faviconDarkLink.href;
+      } else {
+        faviconLink.href = "./assets/icons/favicon.png"; // Fallback para el modo claro
+      }
     }
 
     swictherTheme.addEventListener("click", toggleTheme);
