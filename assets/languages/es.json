@@ -37,7 +37,7 @@
     "project5": "Es una aplicación web desarrollada con front-end que permite buscar al Pokémon por categoría y por nombre, ver la información detallada de nuestro pokemon buscado a través de una API. Para la construcción del app se usaron librerías como: Axios, React Router y React Redux.",
     "project4": "Una aplicación web desarrollada con front-end que permite crear, eliminar y modificar usuarios a través de una API, a través de todos los métodos http. Para la construcción del app se uso la librería como: Axios y React Hook Form.",
     "project3": "Es una aplicación web desarrollada con front-end que permite buscar información autocompletada de una location, además de mostrar el resultado retornado de residentes mediante paginación. Para la construcción de la app se usó librería como: Axios y también se creó custom hook que extrae un arreglo de objetos de la API.",
-    "project2": "Es una aplicación web desarrollada con front-end que permite buscar ciudades del mundo, a su vez que retorna detalles del clima, incluyendo cambio de grados centígrados a fahrenheit y viceversa. Para la construcción de la app se usaron librerías como: Axios, React Native Geolocation Service y React Spinners kit.",
+    "project2": "Es una aplicación web de front-end que permite crear, eliminar y modificar tareas sin necesidad de una API. En el desarrollo de la aplicación se utilizaron tecnologías como TypeScript y Sass. Para la persistencia de datos, se empleó localstorage.",
     "project1": "Es una aplicación web desarrollada con front-end que genera frases célebres al azar cada vez que se hace clic para probar mi suerte; también muestra la fuente de donde fue extraída. Para la construcción de la app se usó el hook useState que permite añadir el estado de React a un componente de función.",
     "label1": "Accede al App",
     "label2": "Descargar código"
@@ -63,8 +63,8 @@
   "contact-me": {
     "title": "Contactame",
     "subtitle": "Más Información",
-    "label1": "Nombre y Apellido",
-    "label2": "Correo electrónico",
+    "label1": "Nombre y Apellido de Contacto",
+    "label2": "Correo electrónico de Contacto",
     "label3": "Número de Celular",
     "label4": "Asunto",
     "label5": "Mensaje",
@@ -72,7 +72,7 @@
     "label7": "Chimbote, Ancash, Perú",
     "label8": "(+51) 954 647 683",
     "label9": "edwinamarantovillegas@gmail.com",
-    "paragraph": "También comunicame o contactame a través de mis redes sociales."
+    "paragraph": "También contactame a través de mis redes sociales."
   },
   "footer": {
     "title": "Redes sociales"

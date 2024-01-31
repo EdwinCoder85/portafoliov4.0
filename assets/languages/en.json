@@ -37,7 +37,7 @@
     "project5": "It is a web application developed with a front-end that allows you to search for the Pokémon by category and by name, see the detailed information of our searched pokemon through an API. For the construction of the app, libraries such as: Axios, React Router and React Redux were used.",
     "project4": "It is a web application developed with front-end that allows to create, delete and modify users through an API, through all http methods. For the construction of the app, the library was used as: Axios and React Hook Form.",
     "project3": "It is a web application developed with a front-end that allows you to search for auto-completed information about a location, in addition to showing the returned result of residents through pagination. To build the app, a library such as Axios was used and a custom hook was also created that extracts an array of objects from the API.",
-    "project2": "It is a web application developed with a front-end that allows you to search for cities in the world, while returning details of the weather, including the change from degrees Celsius to Fahrenheit and vice versa. Libraries such as: Axios, React Native Geolocation Service and React Spinners kit were used to build the app.",
+    "project2": "It is a front-end web application that allows you to create, delete and modify tasks without the need for an API. Technologies such as TypeScript and Sass were used in the development of the application. For data persistence, localstorage was used..",
     "project1": "It is a front-end developed web application that generates random famous quotes every time you click to try my luck; It also shows the source from which it was extracted. To build the app, the useState hook was used, which allows adding the React state to a function component.",
     "label1": "Access the App",
     "label2": "Download code"
@@ -63,16 +63,16 @@
   "contact-me": {
     "title": "Contact Me",
     "subtitle": "More information",
-    "label1": "Name and surname",
-    "label2": "Email",
+    "label1": "Contact name and surname",
+    "label2": "Contact email",
     "label3": "Cell phone number",
-    "label4": "Affair",
+    "label4": "Subject",
     "label5": "Message",
     "label6": "Send",
     "label7": "Chimbote, Ancash, Perú",
     "label8": "(+51) 954 647 683",
     "label9": "edwinamarantovillegas@gmail.com",
-    "paragraph": "Also communicate or contact me through my social networks."
+    "paragraph": "Also contact me through my social networks."
   },
   "footer": {
     "title": "Social Networks"
